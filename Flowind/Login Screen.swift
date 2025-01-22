@@ -19,12 +19,12 @@ struct LoginView: View {
                         .frame(width: 150, height: 120) // Adjusted image size
                         .padding(.bottom, 10)
                     
-                    Text("Create an account")
+                    Text("Login")
                         .font(.custom("IBMPlexSansHebrew-Bold", size: 18)) // Slightly smaller font
                         .fontWeight(.bold)
                         .padding(.bottom, 5)
                     
-                    Text("Enter your email to sign up for this app")
+                    Text("Enter your email to Login")
                         .font(.custom("IBMPlexSansHebrew-Regular", size: 14))
                         .foregroundColor(.gray)
                         .multilineTextAlignment(.center)
@@ -49,14 +49,6 @@ struct LoginView: View {
                             .cornerRadius(10)
                             .padding(.horizontal, 20)
                             .padding(.top, 5)
-                        
-                        SecureField("confirm password", text: $confirmPassword)
-                            .padding()
-                            .frame(height: 45)
-                            .background(Color.black.opacity(0.05))
-                            .cornerRadius(10)
-                            .padding(.horizontal, 20)
-                            .padding(.top, 5)
                     }
                     
                     // Sign up button
@@ -69,7 +61,7 @@ struct LoginView: View {
                                 .background(Color.green)
                                 .cornerRadius(10)
                         } else {
-                            Text("Sign up with email")
+                            Text("Login with email")
                                 .font(.headline)
                                 .foregroundColor(.white)
                                 .frame(maxWidth: .infinity)

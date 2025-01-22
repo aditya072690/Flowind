@@ -10,28 +10,27 @@ Flowind is a SwiftUI-based mobile application designed to enhance productivity t
 - **Signup/Login**: Allows users to create an account or log in using their email. The app also supports social logins via Google and Apple.
 - **Firebase Authentication**: Utilizes FirebaseAuth for secure user authentication.
 
-## Screens
+## ScreenShots
 
-### Splash Screen
+<div style="display: flex; justify-content: space-around; align-items: center;">
+    <div style="text-align: center;">
+        <img src="ScreenShots/SplashScreen.png" alt="SplashScreen" height="150"/>
+        <p>Splash Screen</p>
+    </div>
+    <div style="text-align: center;">
+        <img src="ScreenShots/OnboardingScreen.png" alt="OnboardingScreen" height="150"/>
+        <p>Onboarding Screen</p>
+    </div>
+    <div style="text-align: center;">
+        <img src="ScreenShots/LoginScreen.png" alt="LoginScreen" height="150"/>
+        <p>Login Screen</p>
+    </div>
+    <div style="text-align: center;">
+        <img src="ScreenShots/SignupScreen.png" alt="SignupScreen" height="150"/>
+        <p>Signup Screen</p>
+    </div>
+</div>
 
-- Displays the app logo and name with a simple animation.
-- Automatically transitions to the onboarding screen after a brief delay.
-
-### Onboarding Screen
-
-- Provides an overview of the app's capabilities.
-- Includes a "Get Started" button that navigates to the signup screen.
-
-### Signup Screen
-
-- Users can create an account by entering their email, password, and confirming the password.
-- Displays error messages for invalid inputs or mismatched passwords.
-- Includes social login options for Google and Apple.
-
-### Login Screen
-
-- Similar to the signup screen but tailored for existing users to log in.
-- Provides error feedback for incorrect login details.
 
 ## Installation
 
