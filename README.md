@@ -15,8 +15,8 @@ Flowind is a SwiftUI-based mobile application designed to enhance productivity t
 <div style="display: flex; justify-content: space-around;">
     <img src="ScreenShots/SplashScreen.png" alt="SplashScreen" width="200" />
     <img src="ScreenShots/OnboardingScreen.png" alt="OnboardingScreen" width="200" />
-    <img src="ScreenShots/LoginScreen1.png" alt="LoginScreen" width="200" />
-    <img src="ScreenShots/SignupScreen.png" alt="SignupScreen" width="200" />
+    <img src="ScreenShots/LoginScreen.png" alt="LoginScreen" width="200" />
+    <img src="ScreenShots/SignInScreen.png" alt="SignupScreen" width="200" />
 </div>
 
 
